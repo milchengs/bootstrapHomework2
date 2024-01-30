@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/****** CSS Document ********/
+
+html body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #fff;
+}
+/***** Home Page *****/
+/* Nav Bar */
+.navbar {
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+}
+
+.navbar-toggler {
+  filter: invert(100%); /* make it light color */
+}
+
+.nav-bar-color {
+  background-color: #323231;
+}
+
+.navbar-brand {
+  font-style: italic;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.01em;
+}
+
+.navbar-brand:hover {
+  color: #0600ff;
+}
+
+.nav-highlight {
+  color: #60b2bc !important;
+}
+
+.nav-link {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+/* Body */
+
+h1 {
+  color: #323231;
+  font-size: 1.8em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h2 {
+  /* color: #0600ff; blue for hw1 */
+  color: #bf4f4f; /* red for hw2 */
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1em;
+  color: #323231;
+}
+
+.footer-em {
+  background-color: #faf2f4;
+  text-align: center;
+}
+
+/**** homework 2 *****/
+
+.btn-primary {
+  background-color: #e487a4;
+  border-color: #e487a4;
+}
+
+.btn-primary:hover {
+  background-color: #ca91bc;
+  border-color: #ca91bc;
+}
+
+.card-base {
+  text-align: center;
+}
+
+.carousel-padding {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: #60b2bc;
+}

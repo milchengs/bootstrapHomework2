@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Emily Bootstrap Homework 2</title>
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/bootstrapHomework2.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg nav-bar-color sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand p-2" href="#">Emily C.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active nav-highlight" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Research/research1.html">Research</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown link
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-lg mt-3">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <h1>A cheeseburger is more than just a sandwich, it is a wish fulfilled.</h1>
+                <h2>Just like life, cheeseburgers are meant to be relished.</h2>
+                <p>There is debate on who painstakingly birthed our favourite monumental flavor creation into existence.
+                    What really matters is that, at the end of the day, we can collectively relish in the sweet glory of
+                    it
+                    all. From beef-to-bun ratio, ‘how much is too much?’ cheese, and the careful alchemy of condiments,
+                    every cheeseburger is a small mountain of heaven. There is debate on who painstakingly birthed our
+                    favourite monumental flavor creation into existence. What really matters is that, at the end of the
+                    day, we can collectively relish in the sweet glory of it all. From beef-to-bun ratio, ‘how much is
+                    too much?’ cheese, and the careful alchemy of condiments, every cheeseburger is a small mountain of
+                    heaven.
+                </p>
+                <p>Any day without a cheeseburger in it is a waste. You can find a cheeseburger no matter where you go
+                    in
+                    the world, so you have no excuse to miss out on the glory that some people can only dream of. Step
+                    up to
+                    the plate. Think of cheeseburgers like a Tinder match. They might not all be your soulmate but
+                    you’ve gotta find out to be sure. It can get a little messy and that’s just part of the fun. Some
+                    are cheesy, others can be a little dry, and the rare few are a disaster. There are so many
+                    cheeseburgers out there it can be hard to commit to just one favourite. That being said, when you
+                    know, you just know. Everyone has their perfect match. Sometimes it’s just around the corner, other
+                    times you have to travel the world in search of it. Wherever your perfect cheeseburger is, it’s out
+                    there.
+                </p>
+
+                <!--open cards div-->
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 py-2">
+                        <div class="card shadow h-100">
+                            <img class="card-img-top" src="img/placeholder.avif" alt="Abstract placeholder image">
+                            <div class="card-body">
+                                <h3 class="card-title">Iced Doppio</h3>
+                                <p class="card-text">Ut coffee eu black grounds roast percolator. Spoon, milk as french
+                                    press,
+                                    mocha, milk dripper mocha carajillo breve affogato. Roast kopi-luwak latte redeye
+                                    est
+                                    affogato body. Grinder, ut dark doppio coffee that bar mazagran. Coffee, that
+                                    chicory, café
+                                    au lait instant foam robust, shop robust wings sugar carajillo. </p>
+                                <hr>
+                                <div class="card-base">
+                                    <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#beetlatte">Open
+                                        Modal</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--open modal-->
+                    <div class="modal fade" id="beetlatte" tabindex="-1" role="dialog" aria-labelledby="beetlatteLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title" id="beetlatteLabel">Red Beet Latte</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <img src="img/beetlatte.avif" alt="Red beet latte in clear cup" width="320"
+                                        height="479" />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                                        aria-label="Close">Close
+                                        Modal</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--close modal-->
+
+                    <div class="col-lg-4 col-md-12 py-2">
+                        <div class="card shadow -100">
+                            <img class="card-img-top" src="img/placeholder.avif" alt="Abstract placeholder image">
+                            <div class="card-body">
+                                <h3 class="card-title">Iced Triple</h3>
+                                <p class="card-text">And seasonal, caramelization instant cinnamon coffee, breve that ut
+                                    instant
+                                    cappuccino. Roast french press, skinny, seasonal, cultivar aroma café au lait white
+                                    robust.
+                                    Aromatic medium mocha so café au lait seasonal strong. Cream est blue mountain con
+                                    panna
+                                    wings steamed to go grounds coffee.</p>
+                                <hr>
+                                <div class="card-base">
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 py-2">
+                        <div class="card shadow h-100">
+                            <img class="card-img-top" src="img/placeholder.avif" alt="Abstract placeholder image">
+                            <div class="card-body">
+                                <h3 class="card-title">Iced Quad</h3>
+                                <p class="card-text">Coffee sugar robusta, crema filter galão shop aromatic half and
+                                    half café
+                                    au lait. Flavour est decaffeinated coffee to go, grinder est cup spoon pumpkin spice
+                                    robusta. Espresso half and half as café au lait filter half and half and at aged.
+                                    Single
+                                    origin at decaffeinated, roast medium skinny acerbic seasonal.</p>
+                                <hr>
+                                <div class="card-base">
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- close cards div-->
+            </div> <!-- close main text div-->
+            <div class="col-1"></div>
+        </div> <!-- close row 1 -->
+
+
+    </div> <!-- close container-->
+
+
+    <footer class="footer-em p-3 m-top-3">
+        copyright Emily Cheng | <strong>Last Update was January 2024</strong> | email = emilyc38 at gmail dot com
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
